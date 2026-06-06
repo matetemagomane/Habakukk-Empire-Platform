@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Habakukk Empire</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/what.jpg" alt="Habakukk Empire logo" class="brand-logo">
+      <div>
+        <h1>HABAKUKK EMPIRE</h1>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="kasi-hotspot.html">Kasi Hotspot</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section small-hero">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p>For bookings, orders or general enquiries reach out via phone, WhatsApp or email.</p>
+      </div>
+    </section>
+
+    <section class="section container contact-grid">
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p><strong>Address:</strong> 6485 Charles Makola Street, Ext 10, Witbank, 1035</p>
+        <p><strong>Phone / WhatsApp:</strong> <a class="link" href="https://wa.me/27793530996">079 353 0996</a> / 081 757 6776</p>
+        <p><strong>Email:</strong> <a class="link" href="mailto:habakukkempire@gmail.com">habakukkempire@gmail.com</a></p>
+
+        <h4>Quick Links</h4>
+        <p><a class="btn small" href="kasi-hotspot.html">Order Braai</a> <a class="btn small ghost" href="services.html">Request Rental Quote</a></p>
+      </div>
+
+      <div class="contact-form-wrap">
+        <h3>Send a Detailed Inquiry</h3>
+                <form id="contactForm" action="mailto:habakukkempire@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          
+          <label for="phone">Phone / WhatsApp Number</label>
+          <input id="phone" name="phone" type="tel" placeholder="079 123 4567" required>
+          
+          <label for="subject">Type of Inquiry</label>
+          <select id="subject" name="subject" required>
+              <option value="">-- Please Select --</option>
+              <option value="Rental Quote/Booking">Event Rental Quote / Booking</option>
+              <option value="Security Service Inquiry">Security Service Inquiry</option>
+              <option value="Kasi Hotspot Feedback">Kasi Hotspot Feedback (For Orders use WhatsApp)</option>
+              <option value="General Question">General Question</option>
+          </select>
+
+          <label for="message">Your Message / Event Details</label>
+          <textarea id="message" name="message" rows="5" placeholder="Please include your event date, location, and specific rental needs here." required></textarea>
+
+          <button class="btn" type="submit">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section container map-wrap">
+      <h3>Find Us</h3>
+            <iframe
+        title="Habakukk Empire location"
+        src="https://www.google.com/maps?q=6485+Charles+Makola+St+Ext+10+Witbank+1035&output=embed"
+        allowfullscreen=""
+        loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2021 Habakukk Empire</p>
+    </div>
+  </footer>
+</body>
+</html>
